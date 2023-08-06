@@ -1,0 +1,540 @@
+/* 4 - External */
+
+h4{
+    color: white;
+    background-color: magenta;
+}
+
+body {padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}  
+
+*p { color: blueviolet; }
+
+/* classes */
+
+.paragraph {
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+}
+
+/* ids */
+
+#exclusive-title 
+{
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 60px;
+}
+
+/* ordem das regras */ 
+
+h2 {
+    border-bottom:  2px solid red;
+
+
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo{
+    border-bottom: 4px solid rgb(6, 186, 42);
+
+}
+
+/* Nome de Cores */
+
+.color-name {
+    color: crimson
+}
+
+/* Hex */ 
+
+.hex {
+    color: #55a398
+}
+.hex-2 {
+    color: #7a5055;
+}
+
+/* Aprofundando em  Hex */
+
+.simple-hex {
+    color: #333
+}
+.simple-hex-2 {
+    color: #a5f
+}
+
+/* RGB */  
+.rgb {
+    color: rgb(255,0, 0);
+}
+.mixed-rgb {
+    color: rgb(120,59,20)
+}
+
+/* RGBa */  
+.rgba {
+    color: rgba(155,199, 45,0.4);
+}
+
+/* HSL */ 
+.hsl {
+    color: hsl( 100,20%, 60%);
+}
+.hsl-2 {
+    color: hsl(10,79%,35%)
+}
+.hsl-3 {
+    color: hsl(80,10%,80%)
+}
+.hsl-4 {
+    color: hsl(0, 5%, 58%)
+}
+
+/*Background*/
+
+.bg {
+    background-color: #000;
+    color: yellow
+
+}
+.bg-2 {
+    background-color: rgba(99,77,44,1);
+    color: hsl(80,60%,70%)
+
+}
+
+/*background opacity*/
+
+.bg-opacity {    
+    background-color: green;
+    opacity: 0.2;
+}
+
+.bg-opacity-2 {    
+    background-color:#999;
+    color: #000;
+    opacity: 0.8;
+    
+}
+
+/* BG Imagem */
+.bg-image {
+    background-image: url("../css/img/galaxia.jpg");
+    padding: 12px;
+    color:#fff
+}
+
+/* Centralizando bg image */   
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("../css/img/city.jpg");
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* Largura e Altura */
+
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+.height-width-2 {
+    height: 300px;
+    background-color: #333;
+}
+/* Padding */
+.without-padding,
+.padding {
+    background-color: #111;
+    color:#fff
+}
+
+.padding {
+    padding:20px;
+    background-color: #333
+}
+
+/* padding-individual */
+.padding-individual {
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* shorthand padding */
+.shorthand-padding {
+background-color: #444;
+padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2 {
+background-color: #555;
+padding: 10px 20px;
+}
+
+/* padding com width */
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Border */
+
+.border {
+border: 5px solid red;
+padding: 10px;
+}
+.border-2 {
+border: 2px dotted #931;
+padding: 15px
+}
+
+/* borda individual */
+.border-left {
+    border-left:3px solid red;
+    background-color: #222;
+    padding: 25px;
+}
+.border-bottom {
+    border-bottom: 5px double #399;
+    background-color: #222;
+    padding: 20px;
+}
+
+/* borda arredondada */
+
+.rounded-p {
+    border: 4px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.rounded-p-2 {
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/* margem */
+
+.margin {
+    margin: 10px;
+    background-color: #222;
+}
+
+.margin-top {
+    margin-top:50px;
+    background-color: #444;
+    padding: 10px 
+}
+
+.margin-shorthand {
+    background-color: #666;
+    margin: 5px 10px 15px 20px;
+}
+
+/* box model */
+
+.box-model {
+    margin:20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;
+}
+
+
+        /*--- DESAFIO 3 DA BOX MODEL ---*/
+.box-model-challenge {
+    margin: 40px;
+    padding: 10px;
+    border: 5px dotted yellow;
+    outline: 12px solid #677;
+    background-color: #155;
+}
+
+.challenge-title {
+    background-color: #000;
+    color: white;
+    border: none;
+}
+
+/* text align */
+.text-aligned {
+    text-align: right;
+}
+.text-aligned-2 {
+    text-align: center;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+/* Text Decoration */
+.underline {
+    text-decoration: underline;
+}
+.line-trough {
+    text-decoration: line-through;
+}
+.remove-underline {
+    text-decoration: none;
+    color: red;
+}
+
+/* text transform */
+
+    .upper {
+    text-transform: uppercase;
+    }
+    .lower {
+    text-transform: lowercase;
+    }
+
+    /* letter spacing */
+
+    .spacing {
+    letter-spacing: 5px;
+    }
+    
+    /* Fontes */
+
+    .serif  {
+    font-family: Georgia;
+    }
+    
+    .sans-serif {
+    font-family: Helvetica;
+    }
+
+    .monospace {
+    font-style: "Courier New";
+    }
+
+    .cursive {
+    font-family: cursive;
+    }
+
+    .fantasy {
+    font-family: fantasy;
+    }
+
+    /* Text style */
+    .talic {
+    font-style: italic;
+    }
+
+    .oblique {
+    font-style:oblique;
+    }
+
+    /* font weight */
+    .thin, .bold, .bolder {
+    font-family: Helvetica;
+    }
+
+    .thin {
+    font-weight: 100;
+    }
+
+    .bold {
+    font-weight: 600;
+    }
+
+    .bolder {
+    font-weight: 900;
+    }
+
+    /* Font size */
+    .small {
+    font-size: 6px;
+    }
+
+    .big {
+    font-size: 78px;
+    }
+
+    /* Display */
+    .inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+    }
+
+    .block {
+    background-color: #333;
+    display: block;
+    margin: 10px;
+    }
+
+    .invisible {
+    display: none;
+    }
+
+    /* static */
+    .static {
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    }
+
+    /* Relative */
+    .relative {
+    position: relative;
+    background-color: #224;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+    }
+
+    /* Absolute */
+    .absolute {
+    position: absolute;
+    background-color: #964;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+    }
+
+    /* Absolute e relative */
+    .relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+    }
+
+    .absolute-1,
+    .absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+    }
+
+    .absolute-1 {
+    top: 10px;
+    left: 10px;
+    }
+
+    .absolute-2 {
+    bottom: 10px;
+    right: 10px;
+    }
+
+    /* Fixed */
+    .fixed {
+    width: 100px;
+    height: 100px;
+    background-color: #851;
+    border: 1px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    }
+
+    /* sticky */
+    .sticky {
+    width: 100px;
+    height: 100px;
+    background-color: #994;
+    border: 1px solid green;
+    position: sticky;
+    top: 10px;
+    }
+
+    /* z index */
+    .absolute-3,
+    .absolute-4,
+    .absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+    }
+
+    .absolute-3 {
+    top: 0;
+    left: 0;
+    z-index: 30;
+    background-color: rgb(157, 45, 45);
+    }
+
+    .absolute-4 {
+    top: 30px;
+    left: 30px;
+    background-color: #246;
+    z-index: 31;
+    }
+
+    .absolute-5 {
+    top: 60px;
+    left: 60px;
+    background-color: #453;
+    z-index: 35;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

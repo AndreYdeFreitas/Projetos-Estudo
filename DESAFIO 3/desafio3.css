@@ -1,0 +1,16 @@
+        /*--- DESAFIO 3 DA BOX MODEL ---*/
+
+        .box-model {
+            margin: 40px;
+            padding: 10px;
+            border: 5px dotted yellow;
+            outline: 12px solid #677;
+            background-color: #155;
+        }
+        
+        .challenge-title {
+            background-color: #000;
+            color: white;
+            border: none;
+            text-align: center;
+        }
